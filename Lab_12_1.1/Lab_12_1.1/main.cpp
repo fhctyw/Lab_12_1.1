@@ -18,9 +18,9 @@ int main()
 	SetConsoleOutputCP(1251);
 
 	Number n1;
-	n1.Init(14.0, 2);
+	n1.Init(-14.0, 2);
 	n1.Display();
-	n1.multiply(10);
+	n1.multiply(2.51);
 	n1.Display();
 
 	Number n2;

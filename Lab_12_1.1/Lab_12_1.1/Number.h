@@ -1,11 +1,9 @@
 // Number.h
 #pragma once
 
-unsigned int countNumber(unsigned int value);
+unsigned int getCountNumber(unsigned int value);
 unsigned int stabilize(unsigned int value);
 double getFractionalPart(double value);
-int countNumberFractionalPart(double value);
-
 
 class Number
 {
